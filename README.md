@@ -21,7 +21,7 @@
 
 Alongside the live web dashboard above, the project also ships a companion **Power BI report** (`dashboard/analysing data and perform measure_ dashboard.pbix`) for self-service exploration of the same workforce data:
 
-![HR Analytics Dashboard](assets/powerbi-dashboard.png)
+![HR Analytics Dashboard]("C:\Users\srish\Pictures\Screenshots\POWERBIDASHBOARD.png")
 
 It covers headline KPIs (attrition count, active employees, high-risk employees, average satisfaction), attrition rate by department/education/job level/employment type, burnout risk by department, satisfaction-vs-attrition, employee risk distribution, training hours, absence rate, and a searchable employee directory — filterable by department, marital status, gender, education level, employment type, and age.
 
