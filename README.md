@@ -10,8 +10,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Live demo:**
-- 🖥️ Frontend: [creation-of-workforce-insights-dashboard-q5io.onrender.com](https://creation-of-workforce-insights-dashboard-q5io.onrender.com/)
-- ⚙️ Backend API docs (Swagger): [creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs](https://creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs)
+- Frontend: [creation-of-workforce-insights-dashboard-q5io.onrender.com](https://creation-of-workforce-insights-dashboard-q5io.onrender.com/)
+- Backend API docs : [creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs](https://creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs)
 
 > Note: Render free-tier services spin down when idle, so the first request after a period of inactivity may take up to a minute to respond.
 
@@ -21,7 +21,7 @@
 
 Alongside the live web dashboard above, the project also ships a companion **Power BI report** (`dashboard/analysing data and perform measure_ dashboard.pbix`) for self-service exploration of the same workforce data:
 
-![HR Analytics Dashboard]("C:\Users\srish\Pictures\Screenshots\POWERBIDASHBOARD.png")
+![HR Analytics Dashboard](assets/powerbi-dashboard.png)
 
 It covers headline KPIs (attrition count, active employees, high-risk employees, average satisfaction), attrition rate by department/education/job level/employment type, burnout risk by department, satisfaction-vs-attrition, employee risk distribution, training hours, absence rate, and a searchable employee directory — filterable by department, marital status, gender, education level, employment type, and age.
 
