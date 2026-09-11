@@ -43,20 +43,20 @@ It covers headline KPIs (attrition count, active employees, high-risk employees,
 ## Architecture
 
 ```
-┌──────────────────────────┐        ┌───────────────────────┐        ┌──────────────────────┐
-│   Frontend                │  HTTP  │   Backend API          │        │   PostgreSQL           │
-│   (FastAPI + Jinja2)      │ ─────► │   (FastAPI)             │ ─────► │   employees /          │
-│   Dashboard, Employees,   │        │   /analytics            │        │   employee_metrics /   │
-│   Attrition, Skill Gap,   │        │   /predictions          │        │   predictions           │
-│   Recommendations, Chat   │        │   /chat                 │        └──────────────────────┘
-└──────────────────────────┘        │                         │
-                                     │  ┌───────────────────┐  │        ┌──────────────────────┐
-                                     │  │ ML Models          │  │        │ RAG Pipeline           │
-                                     │  │ (attrition_model,  │  │        │ TF-IDF/FAISS + BM25 →  │
-                                     │  │  skill_gap_model)  │◄─┼────────│ RRF → TF-IDF rerank →  │
+┌──────────────────────────┐         ┌─────────────────────────┐        ┌────────────────────────┐
+│   Frontend               │  HTTP   │   Backend API           │        │   PostgreSQL           │
+│   (FastAPI + Jinja2)     │ ─────►  │   (FastAPI)             │ ─────► │   employees /          │
+│   Dashboard, Employees,  │         │   /analytics            │        │   employee_metrics /   │
+│   Attrition, Skill Gap,  │         │   /predictions          │        │   predictions          │
+│   Recommendations, Chat  │         │   /chat                 │        └────────────────────────┘
+└──────────────────────────┘         │                         │
+                                     │  ┌───────────────────┐  │        ┌────────────────────────┐
+                                     │  │ ML Models         │  │        │ RAG Pipeline           │
+                                     │  │ (attrition_model, │  │        │ TF-IDF/FAISS + BM25 →  │
+                                     │  │  skill_gap_model) │◄ ┼────────│ RRF → TF-IDF rerank →  │
                                      │  └───────────────────┘  │        │ context expander →     │
-                                     │                         │        │ Groq LLM                │
-                                     └─────────────────────────┘        └──────────────────────┘
+                                     │                         │        │ Groq LLM               │
+                                     └─────────────────────────┘        └────────────────────────┘
 ```
 
 The **Frontend** service proxies certain calls (`/api/...`) to the **Backend** service via the `BACKEND_URL` environment variable, so both can be deployed independently — as they are on Render.
