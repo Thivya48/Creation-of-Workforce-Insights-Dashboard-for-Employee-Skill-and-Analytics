@@ -316,11 +316,11 @@ To deploy your own instance:
 
 | Name | GitHub Username |
 |------|------------------|
-| Harshitha Nagilla | [@harshitha-username](https://github.com/harshithanagilla25-netizen/AI-Powered-Workforce-Analytics-Talent-Intelligence-Dashboard) |
-| Srishti Mishra | [@srishti-username](https://github.com/srishtimishra30/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Santosh Kumar Kolagani | [@santosh-username](https://github.com/Santosh8956/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Thivya Priya G | [@thivya-username](https://github.com/Thivya48/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Anil Poojar | [@anil-username](https://github.com/anilpoojar45-hash/AI-workforce-Analytics-Dashboard) |
+| Harshitha Nagilla | (https://github.com/harshithanagilla25-netizen/AI-Powered-Workforce-Analytics-Talent-Intelligence-Dashboard) |
+| Srishti Mishra | (https://github.com/srishtimishra30/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Santosh Kumar Kolagani | (https://github.com/Santosh8956/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Thivya Priya G | (https://github.com/Thivya48/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Anil Poojar | (https://github.com/anilpoojar45-hash/AI-workforce-Analytics-Dashboard) |
 
 ---
 
