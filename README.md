@@ -310,21 +310,17 @@ To deploy your own instance:
 
 ---
 
-## Team
+## Team Contributors
 
-| Stage | Owner |
-|---|---|
-| Data Cleaning | Santhosh, Satish |
-| Feature Engineering | Thivya, Santhosh, Srishti |
-| Machine Learning Models | Surendhar |
-| Database Design & Loading | Srishti |
-| AI Recommendation Engine | Gowtham |
-| RAG Component | Satish, Anil |
-| Frontend & Dashboard Design | Harshitha, Santhosh, Gowtham, Srishti |
-| EDA | Anil, Harshitha |
-| Backend | Srishti |
-| Testing | Surendhar, Thivya|
-| Deployment | Thivya, Srishti|
+|## Contributors
+
+| Name | GitHub Username |
+|------|------------------|
+| Harshitha Nagilla | [@harshitha-username](https://github.com/harshithanagilla25-netizen/AI-Powered-Workforce-Analytics-Talent-Intelligence-Dashboard) |
+| Srishti Mishra | [@srishti-username](https://github.com/srishtimishra30/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Santosh Kumar Kolagani | [@santosh-username](https://github.com/Santosh8956/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Thivya Priya G | [@thivya-username](https://github.com/Thivya48/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Anil Poojar | [@anil-username](https://github.com/anilpoojar45-hash/AI-workforce-Analytics-Dashboard) |
 
 ---
 
