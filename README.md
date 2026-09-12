@@ -1,5 +1,9 @@
 # Workforce Insights Dashboard
 
+Infosys Springboard Virtual Internship Program 7.0
+- Batch: Batch-2
+- Team: Team 1
+
 **AI-powered HR analytics platform** that combines a PostgreSQL-backed analytics API, machine learning models for attrition and skill-gap prediction, a rule-based recommendation engine, and a Retrieval-Augmented Generation (RAG) chat assistant grounded in internal HR policy documents — all surfaced through an interactive web dashboard.
 
 > Real insights. Better people decisions.
@@ -9,9 +13,6 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-336791)](https://supabase.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Infosys Springboard Virtual Internship Program 7.0
-- Batch: Batch-2
-- Team: Team 1
 
 **Live demo:**
 - Frontend: [creation-of-workforce-insights-dashboard-q5io.onrender.com](https://creation-of-workforce-insights-dashboard-q5io.onrender.com/)
