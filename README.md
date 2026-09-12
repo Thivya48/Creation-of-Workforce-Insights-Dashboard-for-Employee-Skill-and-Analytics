@@ -22,7 +22,7 @@ Infosys Springboard Virtual Internship Program 7.0
 
 ## What It Looks Like
 
-Alongside the live web dashboard above, the project also ships a companion **Power BI report** (`dashboard/analysing data and perform measure_ dashboard.pbix`) for self-service exploration of the same workforce data:
+Alongside the live web dashboard above, the project also ships a companion **Power BI report** (`dashboard/projectdashboardfinal.pbix`) for self-service exploration of the same workforce data:
 
 ![HR Analytics Dashboard](dashboard/Dashboard_Overview.png)
 ![HR Analytics Dashboard](dashboard/Attrition_&_Risk.png)
