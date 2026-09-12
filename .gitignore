@@ -10,6 +10,9 @@ __pycache__/
 venv/
 .venv/
 
+# Python Version
+3.11.9
+
 # Jupyter
 .ipynb_checkpoints/
 
