@@ -18,8 +18,6 @@ Infosys Springboard Virtual Internship Program 7.0
 - Frontend: [creation-of-workforce-insights-dashboard-q5io.onrender.com](https://creation-of-workforce-insights-dashboard-q5io.onrender.com/)
 - Backend API docs : [creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs](https://creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs)
 
-> Note: Render free-tier services spin down when idle, so the first request after a period of inactivity may take up to a minute to respond.
-
 ---
 
 ## What It Looks Like
