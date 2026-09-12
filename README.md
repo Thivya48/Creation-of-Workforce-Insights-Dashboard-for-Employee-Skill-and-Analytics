@@ -87,7 +87,8 @@ The **Frontend** service proxies certain calls (`/api/...`) to the **Backend** s
 
 ## Project Structure
 
-```├── Frontend/                      # FastAPI frontend service (dashboard UI)
+```
+├── Frontend/                      # FastAPI frontend service (dashboard UI)
 │   ├── app.py                     # Routes, templating, chart data prep, backend proxy
 │   ├── templates/                 # attrition, dashboard, employee_details, employees,
 │   │                               #   predictions, recommendations, skill_gap
