@@ -9,6 +9,12 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-336791)](https://supabase.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+Infosys Springboard Virtual Internship Program 7.0
+Batch: Batch-2
+Project Group: Group 1
+Mentor: Neha mam
+Mentor Email: springboardmentor5262@gmail.com
+
 **Live demo:**
 - Frontend: [creation-of-workforce-insights-dashboard-q5io.onrender.com](https://creation-of-workforce-insights-dashboard-q5io.onrender.com/)
 - Backend API docs : [creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs](https://creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs)
