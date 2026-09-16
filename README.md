@@ -316,14 +316,14 @@ To deploy your own instance:
 
 | Name | GitHub Username |
 |------|------------------|
-| Harshitha Nagilla | (https://github.com/harshithanagilla25-netizen/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Srishti Mishra | (https://github.com/srishtimishra30/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Santosh Kumar Kolagani | (https://github.com/Santosh8956/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Thivya Priya G | (https://github.com/Thivya48/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Anil Poojar | (https://github.com/anilpoojar45-hash/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Gowtham | (https://github.com/gowtham0759/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Surendhar T | (https://github.com/surendharsurendhar888-collab/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
-| Satish Yandamuri | (https://github.com/satishyandamuri65/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Harshitha Nagilla | https://github.com/harshithanagilla25-netizen/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
+| Srishti Mishra | https://github.com/srishtimishra30/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
+| Santosh Kumar Kolagani | https://github.com/Santosh8956/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
+| Thivya Priya G | https://github.com/Thivya48/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
+| Anil Poojar | https://github.com/anilpoojar45-hash/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
+| Gowtham | https://github.com/gowtham0759/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
+| Surendhar T | https://github.com/surendharsurendhar888-collab/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
+| Satish Yandamuri | https://github.com/satishyandamuri65/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics |
 
 ---
 
