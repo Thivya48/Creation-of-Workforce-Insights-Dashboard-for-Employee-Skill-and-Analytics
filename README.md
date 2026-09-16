@@ -323,6 +323,7 @@ To deploy your own instance:
 | Anil Poojar | (https://github.com/anilpoojar45-hash/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
 | Gowtham | (https://github.com/gowtham0759/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
 | Surendhar T | (https://github.com/surendharsurendhar888-collab/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
+| Satish Yandamuri | (https://github.com/satishyandamuri65/Creation-of-Workforce-Insights-Dashboard-for-Employee-Skill-and-Analytics) |
 
 ---
 
