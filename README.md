@@ -164,6 +164,7 @@ The **Frontend** service proxies certain calls (`/api/...`) to the **Backend** s
 ---
 
 ## Project Structure
+
 ├── Documentation/       # Reports, Agile template, defect tracker, test plan
 ├── Frontend/            # Dashboard app (FastAPI + Jinja2 + Chart.js)
 ├── backend/             # FastAPI service — chat & analytics endpoints
@@ -179,7 +180,6 @@ The **Frontend** service proxies certain calls (`/api/...`) to the **Backend** s
 ├── dashboard/           # Dashboard screenshots used in this README
 ├── requirements.txt
 └── LICENSE
-```
 
 ---
 
