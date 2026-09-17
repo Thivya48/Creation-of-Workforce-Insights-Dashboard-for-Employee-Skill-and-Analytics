@@ -164,77 +164,27 @@ The **Frontend** service proxies certain calls (`/api/...`) to the **Backend** s
 ---
 
 ## Project Structure
+text
+├── Documentation/       # Reports, Agile template, defect tracker, test plan
+├── Frontend/            # Dashboard app (FastAPI + Jinja2 + Chart.js)
+├── backend/             # FastAPI service — chat & analytics endpoints
+├── RAG/                 # Retrieval-augmented chatbot pipeline
+├── Machine learning/    # Model training scripts (attrition, skill gap)
+├── recommendation/      # AI recommendation engine (rule-based)
+├── database/            # Schema (schema.sql) + ETL load script
+├── data/                # Raw & cleaned datasets
+├── notebook/            # EDA / feature engineering notebooks
+├── outputs/             # Model predictions & exported CSVs
+├── Power BI Dashboard/  # projectdashboardfinal.pbix
+├── testing_points/      # test_all_endpoints.py, test_frontend_pages.py
+├── dashboard/           # Dashboard screenshots used in this README
+├── requirements.txt
+└── LICENSE
+<details> <summary>📂 Click to expand full file tree</summary>
 
-```
-├── Frontend/                      # FastAPI frontend service (dashboard UI)
-│   ├── app.py                     # Routes, templating, chart data prep, backend proxy
-│   ├── templates/                 # attrition, dashboard, employee_details, employees,
-│   │                               #   predictions, recommendations, skill_gap
-│   └── static/                    # charts.js, dashboard.js, employees.js, style.css
-│
-├── backend/                       # FastAPI backend API service
-│   ├── main.py                    # App entrypoint, router registration
-│   ├── database.py                # SQLAlchemy engine/session setup (pg8000 driver)
-│   ├── local_powershell_script.ps1 # Loads .env and starts the backend (Windows)
-│   └── routers/
-│       ├── analytics.py           # /analytics/summary, /by-department, /at-risk
-│       ├── predictions.py         # /predictions/attrition, /predictions/skill-gap
-│       └── chat.py                # /chat — RAG-powered Q&A
-│
-├── Machine Learning/
-│   ├── train_attrition.py         # Trains the Random Forest attrition classifier
-│   ├── train_skill_gap.py         # Trains the LightGBM skill-gap model
-│   ├── models/                    # attrition_model.pkl, skill_gap_model.pkl (Git LFS)
-│   └── Featured Engineering.csv   # Engineered feature dataset (63 columns)
-│
-├── RAG/
-│   ├── main.py                    # End-to-end RAG pipeline orchestration
-│   ├── load_documents.py          # Loads source documents for chunking/embedding
-│   ├── chunk_documents.py         # Markdown header-aware document chunking
-│   ├── create_vectorstore.py      # Builds the TF-IDF vectorizer + FAISS index
-│   ├── hybrid_retrieve.py         # TF-IDF/FAISS + BM25 hybrid retrieval, RRF fusion
-│   ├── reranker.py                # TF-IDF cosine-similarity reranking
-│   ├── context_expander.py        # Expands retrieved chunks with neighbouring context
-│   ├── llm.py                     # Groq API call wrapper
-│   ├── test_embeddings.py         # Embedding/retrieval sanity tests
-│   ├── knowledge_base/
-│   │   └── documents/             # career_growth.md, employee_retention.md,
-│   │                               #   employee_skill_development.md,
-│   │                               #   performance_management.md, workforce_policy.md
-│   └── vectorstore/                # Persisted FAISS index + chroma.sqlite3
-│
-├── Power BI Dashboard/
-│   └── projectdashboardfinal.pbix # Power BI report
-│
-├── dashboard/                      # Exported dashboard screenshots
-│   ├── Dashboard_Overview.png
-│   ├── Attrition_&_Risk.png
-│   └── Development_&_Wellbeing.png
-│
-├── data/
-│   ├── raw/                        # employee_attrition_dataset.csv
-│   └── processed/                  # employee_attrition_cleaned_dataset.csv
-│
-├── database/
-│   ├── schema.sql                  # Postgres table definitions
-│   └── load_to_postgres.py         # Loads processed data into Postgres (psycopg2, batched)
-│
-├── recommendation/
-│   └── recommendation_engine.py    # Generates per-employee recommendations from model outputs
-│
-├── outputs/                        # attrition_predictions.csv, skill_gap_predictions.csv,
-│                                    #   recommendations.json
-│
-├── notebook/
-│   └── EDA1.ipynb                  # Exploratory data analysis
-│
-├── testing_points/
-│   ├── test_all_endpoints.py       # Backend endpoint smoke tests
-│   └── test_frontend_pages.py      # Frontend page smoke tests
-│
-├── .gitattributes                  # Git LFS tracking rules
-├── .gitignore
-└── requirements.txt
+Browse the live structure directly on GitHub — it always reflects the current state of the repo: 👉 View all files
+
+</details>
 ```
 
 ---
