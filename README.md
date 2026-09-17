@@ -1,7 +1,7 @@
 # Workforce Insights Dashboard for Employee Skill and Analytics
 ### Transforming Workforce Data into Intelligent Business Decisions
 
-**Infosys Springboard Virtual Internship Program 7.0**
+- Infosys Springboard Virtual Internship Program 7.0**
 - **Batch:** Batch-2
 - **Project Group:** Group 1
 - **Mentor:** Neha Mam
