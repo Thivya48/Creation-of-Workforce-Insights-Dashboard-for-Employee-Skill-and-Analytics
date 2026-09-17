@@ -94,7 +94,21 @@ It covers headline KPIs (attrition count, active employees, high-risk employees,
 ---
 
 ## Documents
-<p> <a href="./Agile_Docx.xlsx"> <img src="https://img.shields.io/badge/AGILE%20TEMPLATE-.XLSX-1e88e5?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Agile Template" /> </a> <a href="./Unit_Test_Plan.xlsx"> <img src="https://img.shields.io/badge/UNIT%20TEST%20PLAN-.XLSX-43a047?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Unit Test Plan" /> </a> <a href="./Defect_Tracker.xlsx"> <img src="https://img.shields.io/badge/DEFECT%20TRACKER%20TEMPLATE-.XLSX-fb8c00?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Defect Tracker Template" /> </a> <a href="./final_documentation_report.pdf"> <img src="https://img.shields.io/badge/COMPLETE%20PROJECT%20DOCUMENTATION-.PDF-e53935?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Complete Project Documentation" /> </a> </p>
+<p>
+  <a href="./Documentation/Agile_Docx.xlsx">
+    <img src="https://img.shields.io/badge/AGILE%20TEMPLATE.XLSX-1e88e5?style=for-the-badge" alt="Agile Template.xlsx" height="32" />
+  </a>
+  <a href="./Documentation/Unit_Test_Plan.xlsx">
+    <img src="https://img.shields.io/badge/UNIT%20TEST%20PLAN.XLSX-43a047?style=for-the-badge" alt="Unit Test Plan.xlsx" height="32" />
+  </a>
+  <a href="./Documentation/Defect_Tracker.xlsx">
+    <img src="https://img.shields.io/badge/DEFECT%20TRACKER%20TEMPLATE.XLSX-fb8c00?style=for-the-badge" alt="Defect Tracker Template.xlsx" height="32" />
+  </a>
+  <br/>
+  <a href="./Documentation/final_documentation_report.pdf">
+    <img src="https://img.shields.io/badge/COMPLETE%20PROJECT%20DOCUMENTATION.PDF-e53935?style=for-the-badge" alt="Complete Project Documentation.pdf" height="32" />
+  </a>
+</p>
 
 ---
 
