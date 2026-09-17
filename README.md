@@ -92,6 +92,11 @@ Alongside the live web dashboard above, the project also ships a companion **Pow
 It covers headline KPIs (attrition count, active employees, high-risk employees, average satisfaction), attrition rate by department/education/job level/employment type, burnout risk by department, satisfaction-vs-attrition, employee risk distribution, training hours, absence rate, and a searchable employee directory — filterable by department, marital status, gender, education level, employment type, and age.
 
 ---
+📂 Documents
+<p> <a href="./Agile_Docx.xlsx"> <img src="https://img.shields.io/badge/AGILE%20TEMPLATE-.XLSX-1e88e5?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Agile Template" /> </a> <a href="./Unit_Test_Plan.xlsx"> <img src="https://img.shields.io/badge/UNIT%20TEST%20PLAN-.XLSX-43a047?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Unit Test Plan" /> </a> <a href="./Defect_Tracker.xlsx"> <img src="https://img.shields.io/badge/DEFECT%20TRACKER%20TEMPLATE-.XLSX-fb8c00?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Defect Tracker Template" /> </a> <a href="./final_documentation_report.pdf"> <img src="https://img.shields.io/badge/COMPLETE%20PROJECT%20DOCUMENTATION-.PDF-e53935?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Complete Project Documentation" /> </a> </p>
+
+📌 Place Agile_Docx.xlsx, Unit_Test_Plan.xlsx, Defect_Tracker.xlsx, and final_documentation_report.pdf in the repository root (or update the paths above to match a docs/ folder if you organize them there).
+---
 
 ## Features
 
@@ -108,6 +113,26 @@ It covers headline KPIs (attrition count, active employees, high-risk employees,
 
 ## Architecture
 
+```
+
+## 🗂️ Project Flow
+
+```mermaid
+graph TD
+A[Raw Employee Dataset - 15,000 records] --> B[Data Cleaning]
+B --> C[Feature Engineering]
+C --> D[Database Storage - PostgreSQL/Supabase]
+C --> E[EDA]
+C --> F[Machine Learning Models]
+F --> G[Attrition Risk Prediction]
+F --> H[Skill Gap Prediction]
+G --> I[AI Recommendation Engine]
+H --> I
+I --> J[RAG Knowledge Assistant]
+I --> K[Interactive Dashboard]
+D --> K
+J --> L[FastAPI Backend]
+K --> L
 ```
 ┌──────────────────────────┐         ┌─────────────────────────┐        ┌────────────────────────┐
 │   Frontend               │  HTTP   │   Backend API           │        │   PostgreSQL           │
