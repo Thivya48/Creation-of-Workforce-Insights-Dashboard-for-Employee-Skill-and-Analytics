@@ -1,8 +1,10 @@
-# Workforce Insights Dashboard
+# Workforce Insights Dashboard for Employee Skill and Analytics
+### Transforming Workforce Data into Intelligent Business Decisions
 
-Infosys Springboard Virtual Internship Program 7.0
-- Batch: Batch-2
-- Team: Team 1
+**Infosys Springboard Virtual Internship Program 7.0**
+- **Batch:** Batch-2
+- **Project Group:** Group 1
+- **Mentor:** Neha Mam
 
 **AI-powered HR analytics platform** that combines a PostgreSQL-backed analytics API, machine learning models for attrition and skill-gap prediction, a rule-based recommendation engine, and a Retrieval-Augmented Generation (RAG) chat assistant grounded in internal HR policy documents — all surfaced through an interactive web dashboard.
 
@@ -13,10 +15,69 @@ Infosys Springboard Virtual Internship Program 7.0
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-336791)](https://supabase.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-
 **Live demo:**
 - Frontend: [creation-of-workforce-insights-dashboard-q5io.onrender.com](https://creation-of-workforce-insights-dashboard-q5io.onrender.com/)
-- Backend API docs : [creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs](https://creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs)
+- Backend API docs: [creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs](https://creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs)
+
+---
+
+## Overview
+
+This project focuses on building a **Workforce Insights Dashboard for Employee Skill and Analytics** that helps organizations make faster and better decisions across workforce planning, employee engagement, talent development, diversity, attrition, recruitment effectiveness, and organizational health.
+
+The solution combines large language models, retrieval-augmented generation, predictive analytics, semantic search, and agentic AI workflows to transform fragmented HR data into strategic business intelligence. It is designed to support HR leaders, business stakeholders, and executives with real-time insights and conversational access to workforce information.
+
+---
+
+## Project Objective
+
+The objective of this project is to create a unified intelligence platform that can:
+
+- Integrate workforce data from major HRMS and talent systems.
+- Clean, transform, and model workforce-related datasets.
+- Generate semantic embeddings and knowledge indexes for retrieval and reasoning.
+- Predict attrition risk, talent gaps, and workforce trends.
+- Surface actionable recommendations for retention, planning, and skill development.
+- Provide an interactive dashboard and conversational analytics experience.
+
+---
+
+## Key Outcomes
+
+- Comprehensive visibility into workforce performance, demographics, and organizational trends.
+- Predictive analytics to identify attrition risks and proactive retention strategies.
+- Actionable insights into employee skills, learning progress, and career development.
+- Monitoring of diversity, equity, and inclusion metrics across the organization.
+- Intelligent AI-powered recommendations for workforce planning and engagement.
+- Natural language interaction for rapid, data-driven workforce intelligence.
+
+---
+
+## Milestones
+
+### Milestone 1
+- Study workforce data requirements and define system analytics specifications.
+- Design repository architecture, database schema, and data integration pipelines.
+- Develop secure mechanisms for connecting to SAP, Workday, and other HR data sources.
+- Implement initial data cleansing, transformation, and storage workflows for workforce datasets.
+
+### Milestone 2
+- Develop AI analysis workflows for automated workforce trend monitoring and predictive insights.
+- Implement machine learning models for attrition prediction and skill gap analysis.
+- Create validation scripts for auditing prediction accuracy against historical workforce outcomes.
+- Validate engine performance in generating reliable health scores and talent recommendations.
+
+### Milestone 3
+- Integrate the core analytics engine with the interactive workforce intelligence dashboard.
+- Develop visualization modules for tracking headcount, diversity metrics, and engagement trends.
+- Implement reporting modules for executive summaries and strategic talent intelligence reports.
+- Create role-based collaboration tools for HR leaders and business stakeholders.
+
+### Milestone 4
+- Develop automated feedback loops for refining AI predictions and forecasting models.
+- Generate performance reports, talent benchmarking summaries, and organizational health reviews.
+- Conduct cloud deployment, system testing, and recommendation effectiveness evaluation.
+- Prepare project documentation, technical report, and final demonstration.
 
 ---
 
@@ -311,8 +372,6 @@ To deploy your own instance:
 ---
 
 ## Team Contributors
-
-|## Contributors
 
 | Name | GitHub Username |
 |------|------------------|
