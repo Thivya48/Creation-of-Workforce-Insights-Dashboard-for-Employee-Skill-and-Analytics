@@ -163,26 +163,6 @@ The **Frontend** service proxies certain calls (`/api/...`) to the **Backend** s
 
 ---
 
-## Project Structure
-
-├── Documentation/       # Reports, Agile template, defect tracker, test plan
-├── Frontend/            # Dashboard app (FastAPI + Jinja2 + Chart.js)
-├── backend/             # FastAPI service — chat & analytics endpoints
-├── RAG/                 # Retrieval-augmented chatbot pipeline
-├── Machine learning/    # Model training scripts (attrition, skill gap)
-├── recommendation/      # AI recommendation engine (rule-based)
-├── database/            # Schema (schema.sql) + ETL load script
-├── data/                # Raw & cleaned datasets
-├── notebook/            # EDA / feature engineering notebooks
-├── outputs/             # Model predictions & exported CSVs
-├── Power BI Dashboard/  # projectdashboardfinal.pbix
-├── testing_points/      # test_all_endpoints.py, test_frontend_pages.py
-├── dashboard/           # Dashboard screenshots used in this README
-├── requirements.txt
-└── LICENSE
-
----
-
 ## API Reference
 
 Full interactive documentation is available at `/docs` on the backend service (Swagger UI) — see the [live docs](https://creation-of-workforce-insights-dashboard-4cmu.onrender.com/docs).
